@@ -1,0 +1,39 @@
+.popup{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    height: 60px;
+animation: popupa forwards 0.2s ease;
+text-align: center;
+justify-items: center;
+    background-color: #f8d7da;
+    color: black;
+    border-radius: 5px;
+    display:grid;
+    grid-template-rows: 97% 3%;
+    width: auto;
+    z-index: 99;
+}
+@keyframes popupa {
+    from{
+        width: 0px;
+    }to{
+        width: 200px;
+    }
+}
+@keyframes popupas {
+    from{
+        width: 0px;
+    }to{
+        width: 200px;
+    }
+}
+.text{
+    animation: popupas forwards ease 2s;
+    background-color: rgb(255, 255, 255);
+    bottom: 0px;
+    position: relative;
+    bottom: 18px;
+    height: 2px;
+    
+}

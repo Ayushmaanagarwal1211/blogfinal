@@ -1,0 +1,97 @@
+.b{
+    background-image: linear-gradient(to bottom,blue,aqua);
+  object-fit: fill;
+  opacity: 2;
+  backdrop-filter: blue(100px);
+  
+  background-size: cover;
+    height:calc(100vh);
+    background-repeat: no-repeat;
+    text-align: end;
+}
+
+.box{
+    height: 40%;
+    width: 20%;
+    margin: auto;
+    margin-top:4%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    background-color: rgba(100, 95, 95, 0.1);
+    border: solid gray 1px ;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4%;
+}
+@media only screen and (max-width:1000px){
+    .box1{
+        height: 700px;
+        width: 500px;
+        margin: auto;
+        
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        background-color: rgba(100, 95, 95, 0.1);
+        border: solid gray 1px ;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+        border-radius: 4%;
+    }.inputs::placeholder{
+    font-size: x-large;
+}
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    background-color: rgba(100, 95, 95, 0.1);
+    border: solid gray 1px ;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4%;
+}
+input::placeholder{
+    color: white;
+    font-size: small;
+    opacity: 2;
+}
+.inputs{
+    width:100%;
+    padding:3%;
+        border:none;
+        ;
+        background-color: rgba(100, 95, 95, 0.0);
+        border-bottom: solid rgb(0, 0, 0) 1px;
+    
+    
+}
+
+.inputs:focus{
+  
+    background-color: rgba(100, 95, 95, 0.0);
+        border-bottom: solid rgba(100, 95, 95, 1) 1px;
+        outline: none;
+        color: rgb(255, 255, 255,1)
+
+}
+.inputs::placeholder{
+    color: rgb(255, 255, 255,1)
+}
+.button1{
+    background-color: rgba(100, 95, 95, 0.3);
+    color: white;
+    border: solid rgba(100, 95, 95, 0.3) 1px ;
+    border-radius: 4px;
+}

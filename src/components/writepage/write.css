@@ -1,0 +1,40 @@
+.mains{
+    display: grid;
+  
+    position: relative;
+    top: 200px;
+    grid-template-rows: 90px 40px 90x;
+    grid-template-columns: 20% 50% 30%;
+    column-gap: 5px;
+    padding-right: 5%;
+}
+.title:focus{
+    outline: none;
+}
+.images{
+    position: absolute;
+    margin-top: 70px;
+}
+.category11{
+grid-column-start: 2;
+grid-column-end: 4;
+    color: #2a2222;
+}
+.category11::placeholder{
+    color: gray;
+    font-size: xx-large;
+}
+.category:focus{
+    outline: none;
+}
+.textarea:focus{
+    outline: none;
+}
+.title2::placeholder{
+    color: gray;
+    font-size: xx-large;
+}
+.title2{
+    border: none;
+    outline: none;
+}

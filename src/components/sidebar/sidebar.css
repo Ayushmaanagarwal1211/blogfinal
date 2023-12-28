@@ -1,0 +1,67 @@
+.sidebar{
+    flex: 3;
+    height: 500px;
+    padding-right:3%;
+    margin-top: 4px;
+}
+.about{
+          text-align: center;
+
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme{
+    font-size: larger;
+    text-align: center;
+
+    padding: 6px;
+    border-top: solid gray 2px;
+    border-bottom: solid gray 2px;
+}
+.about>img{
+}
+.list{
+    display: block;
+    text-align: start;
+    list-style: circle;
+}
+.listitem{
+    width: 40%;
+    padding: 2%;
+    color: white;
+    border: solib rgb(228, 214, 214) 1px;
+    /* border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%; */
+    text-align: center;
+    border-radius: 20%;
+    margin: 2%;
+    display: inline-block;
+    background-color: rgb(184, 51, 51);
+}
+.listitem:hover{
+    background-color: rgb(133, 0, 0);
+
+}
+.list1{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 5px;
+}
+.follow{
+    align-items: start;
+}
+@media (max-width:400px) {
+.list{
+    position: relative;
+    right: 14px;
+    
+}
+.listitem{
+    margin: 10px;
+    width: 70px;
+}
+}

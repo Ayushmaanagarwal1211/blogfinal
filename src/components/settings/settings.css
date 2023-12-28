@@ -1,0 +1,122 @@
+.settings{
+    flex: 9;
+    margin-top: 50px;
+    padding: 2%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.image-input {
+  background-size: cover;
+  background-position: center; 
+z-index: 999;
+width: 20px;
+height: 20px;
+  /* Add padding to ensure the text does not overlap the image */
+}
+
+#togglePassword {
+  position: relative;
+  right: 20px;
+   
+    cursor: pointer;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/709/709612.png'); /* Replace with your eye icon image */
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+  }
+  
+  #passwordInput {
+    padding-right: 30px;
+  }
+  #togglePassword1 {
+    position: relative;
+    right: 20px;
+    cursor: pointer;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/709/709612.png'); /* Replace with your eye icon image */
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+  }
+  
+  #passwordInput1 {
+    padding-right: 30px;
+  }
+  .password{
+    display: flex;
+    flex-direction: column;
+  }
+  .password input{
+    margin-top: 15px;
+    margin-left: 12px;
+  }
+.input{
+    border: none;
+    padding: 1%;
+    border-bottom: solid rgb(205, 193, 193) 1px;
+
+}
+.input:focus{
+    outline: none;
+}
+.eye{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+}
+.label{
+    padding: 1%;
+    font-size: large;
+}
+@media (max-width:600px) {
+  .heading{
+    font-size: 15px;
+    display: block;
+    width: 170px;
+    padding-left:16% ;
+    position: relative;
+    padding: 5%;
+    right: 24px;
+  }
+  .delete{
+    display: block;
+    padding-right: 16%;
+    position: relative;
+    right:10px;
+  }
+  .update{
+    display: flex;
+    flex-direction: column;
+  }
+  .maincontainer{
+    width: 40%;
+    margin: auto;
+  }
+  .label{
+    padding: 14%;
+
+  }
+  .input{
+    text-align: center;
+  }
+  .Userprofile{
+    position: relative;
+  }
+  .form{
+    position: relative;
+    right: 30px;
+    text-align: center;
+  }
+  .password{
+    justify-content: center;
+
+position: relative;
+left: 20px;  }
+.settingbutton{
+  position: relative;
+  right: 35px;
+  margin-top: 50%;
+}
+}

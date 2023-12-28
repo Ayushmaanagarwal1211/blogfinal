@@ -1,0 +1,74 @@
+.topbar{
+    width: 100%;
+    background-color: #500a0a;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 999;
+ height: 40px;
+    
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+
+    opacity:"1"
+}
+
+.left{
+    flex:2;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+.right{
+    flex:3;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+.h{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #500a0a;
+    z-index: 99;
+    padding: 10px;
+}
+.middle{
+   flex: 6;
+    display: flex;
+  align-items: center;
+    
+}
+.background{
+    height: 20px;
+    
+    width: 20px;
+}
+.list2{
+    display: flex;
+list-style: none;
+    gap: 9%;
+    align-items: center;
+    position: relative;
+   
+}
+.list2animate{
+    animation: animator 0.2s ease forwards;
+}
+@keyframes animator {
+    from{
+            left: 300px;
+    }to{
+        left: 0px;
+    }
+}
+
+
+.hidden{
+    display: none;
+}
