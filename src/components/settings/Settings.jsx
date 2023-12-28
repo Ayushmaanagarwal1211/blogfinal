@@ -98,7 +98,7 @@ formdata.append('upload_preset','e_image')
   if(formdata!=null){
   
   files('a')
-  const d=await fetch("https://api.cloudinary.com/v1_1/dwgd3as6k/upload&quality=10",{
+  const d=await fetch("https://api.cloudinary.com/v1_1/dwgd3as6k/upload",{
      method:"POST",
      body:formdata
     })
