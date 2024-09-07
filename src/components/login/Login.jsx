@@ -87,7 +87,7 @@ console.log(state.mainuser)
             <input type='email' id='email' className='inputs' placeholder='Enter your email' ref={eref}></input></div>
             <div style={{display:"flex",flexDirection:"row-reverse",gap:'0px'}}><label htmlFor='username' style={{color:"white"}}><div ><FaLock size={'1.5rem'} style={{border:"solid white 2px",color:"#1454df",padding:"10px",borderRadius:"50%",backgroundColor:"white"}}/></div></label>
             <input type='password' id='password' className='inputs' ref={pref} placeholder='Enter your password'></input></div></form>
-            <button className='button1' onClick={handleclick} style={{width:"200px",display:"block",margin:"auto",marginTop:"40px",padding:"1%" ,height:"40px",backgroundColor:"aqua" ,color:"black",fontSize:"20px",fontWeight:"semibold",borderRadius:"20px"}}>Submit</button>
+            <button className='button1' onClick={handleclick} style={{width:"200px",display:"block",margin:"auto",marginTop:"40px",padding:"1%" ,height:"40px",backgroundColor:"aqua" ,color:"black",fontSize:"20px",fontWeight:"semibold",borderRadius:"20px",cursor:"pointer"}}>Submit</button>
         </div>
     </div>
     {popup && <Popup msg={msg} />}
