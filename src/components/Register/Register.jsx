@@ -115,7 +115,7 @@ return (
             <input type='email' className='inputs' placeholder='Enter your email' ref={email}></input></div>
             <div style={{display:"flex",flexDirection:"row",gap:'0px'}}> <label htmlFor='password' style={{color:"white"}}><FaLock size={'1.5rem'}  style={{color:"#1454df",padding:"10px",borderRadius:"50%",backgroundColor:"white"}} /></label>
             <input type='password' className='inputs' placeholder='Enter your password' ref={password}></input></div></form>
-            <button className='button1' onClick={handleclick} style={{width:"200px",display:"block",margin:"auto",marginTop:"40px",padding:"1%" ,height:"40px",backgroundColor:"aqua" ,color:"black",fontSize:"20px",fontWeight:"semibold"}}>Submit</button>
+            <button className='button1' onClick={handleclick} style={{width:"200px",display:"block",margin:"auto",marginTop:"40px",padding:"1%" ,height:"40px",backgroundColor:"aqua" ,color:"black",fontSize:"20px",fontWeight:"semibold",cursor:"pointer"}}>Submit</button>
                   </div></div>
     </div>
     {popup && <Popup msg={msg}/>}
