@@ -79,6 +79,8 @@ const handleerror=async (msga)=>{
           pic:pic
         })
         // navigate("/login")
+                navigate('/login')
+
       }
       catch(err){
         console.log("Error generated")
